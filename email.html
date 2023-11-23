@@ -1,0 +1,30 @@
+<!-- email coisa la-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar E-mail</title>
+</head>
+<body>
+    <h1>Insira seu e-mail para receber conteúdo</h1>
+    <form id="emailForm">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script>
+        document.getElementById("emailForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            const userEmail = document.getElementById("email").value;
+            
+            // Aqui você chamaria uma função no seu backend para lidar com o envio de e-mail.
+            // Pode ser usando JavaScript com Node.js, Python com Flask/Django, PHP, etc.
+            document.getElementById("email").value = '';
+        });
+    </script>
+</body>
+</html>
