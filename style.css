@@ -198,7 +198,7 @@ a{
     color: #37818A;
     font-style: normal;
     text-align: center;
-    text-shadow: 1px 1px 1px rgb(65, 203, 216);
+    text-shadow: 1px 1px 1px rgb(53, 224, 240);
     font-weight: bold;
     font-size: 70px;
 }
@@ -206,7 +206,7 @@ a{
 #subtitulo1{
     color: #37818A;   
     font-style: normal;
-    text-shadow: 1px 1px 1px rgb(56, 150, 160);
+    text-shadow: 1px 1px 1px rgb(44, 191, 207);
     text-align: center;
     font-weight: bold;
     font-size: 25px;
@@ -246,10 +246,11 @@ a{
 
 #email{
     color: #37818A;
+    text-shadow: 1px 1px 1px rgb(123, 237, 250);
     font-style: italic;
     text-align: left;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 #email:hover{
@@ -348,7 +349,7 @@ a{
     color: #1a5c66;
     text-shadow: 1px 1px 1px rgb(80, 190, 202);
     font-size: 40px;
-    text-align: center;
+    text-align: justify;
     position: relative;
     top: -550px;
 }
@@ -400,4 +401,23 @@ a{
     left: 225px;
     top:-10px;
     transform: scale(0.8);
+}
+
+#Img5{
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 225px;
+    top:-50px;
+    transform: scale(0.8);
+}
+
+#Img6{
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 235px;
+    top:-10px;
+    transform: scale(1.2);
+    opacity: 0.9;
 }
