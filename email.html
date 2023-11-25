@@ -1,30 +1,59 @@
 <!-- email coisa la-->
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contate-nos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
-<body>
-    <h1>Insira seu e-mail para receber conteúdo</h1>
-    <form id="emailForm">
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required>
-        <button type="submit">Enviar</button>
-    </form>
 
-    <script>
-        document.getElementById("emailForm").addEventListener("submit", function(event) {
-            event.preventDefault();
+<body id="Pag2">
 
-            const userEmail = document.getElementById("email").value;
-            
-            // Aqui você chamaria uma função no seu backend para lidar com o envio de e-mail.
-            // Pode ser usando JavaScript com Node.js, Python com Flask/Django, PHP, etc.
-            document.getElementById("email").value = '';
-        });
-    </script>
+    <!--Botão para voltar para página inicial-->
+    <div id="botaoaf">
+        <a href="index.html">
+            <button id="btPagInicial3"> &#129194;</button>
+        </a>
+    </div>
+
+    <div id="pag3">
+
+        <!--Titulo-->
+        <div id="titulo2">
+            <h1>Formulário de contato</h1>
+        </div>
+
+        <!--Formulario para entrar em contato-->
+        <form action="https://formsubmit.co/julidesa9@gmail.com" method="POST" class="form">
+
+            <!--Campo para inserir o nome-->
+            <label for="name"> Nome:</label>
+            <input type="text" name="name" placeholder="Seu nome" id="nomeForm" required>
+
+            <!--Campo para inserir o email-->
+            <label for="name"> Email:</label>
+            <input type="email" name="email" placeholder="Seu Email" id="emailForm" required>
+
+            <!--Campo para inserir a mensagem-->
+            <label for="name"> Mensagem:</label>
+            <textarea name="message" placeholder="Escreva sua dúvida aqui!" required id="msgForm"></textarea>
+
+            <!--Botão que envia o formulario e redireciona para pagina inicial-->
+            <input type="hidden" name="_next" value="https://jjhugojj.github.io/index.html">
+            <button type="submit">Enviar</button>
+
+            <!--Tira o captcha que vem com o Formsubmit-->
+            <input type="hidden" name="_captcha" value="false">
+        </form>
+
+    </div>
+
+    <!--Imagens de decoração-->
+    <img id="Img8" src="Imagens/comu.jpg">
+    <img id="Img9" src="Imagens/carater-de-consumo-consciente-co.png">
 </body>
+
 </html>

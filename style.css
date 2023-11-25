@@ -294,6 +294,8 @@ a{
     position: relative;
     top: 2px;
     left: 3px;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 #btPagInicial, #btPagInicial1, #btPagInicial2, #btPagInicial3{
@@ -306,6 +308,8 @@ a{
     font-style: italic;
     font-weight: bold;
     color: #0f3f46;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 #btPagInicial:hover, #btPagInicial1:hover, #btPagInicial2:hover, #btPagInicial3:hover{
@@ -419,5 +423,105 @@ a{
     left: 235px;
     top:-10px;
     transform: scale(1.2);
+    opacity: 0.9;
+}
+
+#Img7{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 330px;
+    top: 1px;
+    transform: scale(1);
+}
+
+#pag3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.form{
+    width: 100%;
+    max-width: 512px;
+    font-size: 18px;
+}
+
+.form label, .form input, .form textarea, .form button{
+    display: block;
+    width: 100%;
+}
+
+.form label{
+    color: #1d95a5;
+    text-shadow: 1px 1px 1px rgb(115, 224, 236);
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.form input, .form textarea{
+    background: rgb(226, 234, 235);
+    font: inherit;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.form textarea{
+    min-height: 208px;
+    resize: vertical;
+}
+
+.form button{
+    display: block;
+    padding: 16px;
+    background: #FFCC31;
+    color: #185860;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(80, 190, 202);
+    font: inherit;
+    text-transform: uppercase;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+  outline: none;
+  border-color: #FFCC31;
+  box-shadow: 0 0 0 3px #fdd14c;
+}
+
+.form button:hover,
+.form button:focus {
+  outline: none;
+  background: rgb(226, 234, 235);
+}
+
+#Img8{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 5px;
+    top: -400px;
+    transform: scale(0.8);
+    opacity: 0.9;
+}
+
+#Img9{
+    width: 450px;
+    height: 400px;
+    position: relative;
+    left: 525px;
+    top: -550px;
+    transform: scale(0.8);
     opacity: 0.9;
 }

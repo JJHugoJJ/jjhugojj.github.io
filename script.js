@@ -6,7 +6,7 @@ function recarregarPagina() {
 // Adiciona um ouvinte de evento ao botão
 document.getElementById('btRecarrega').addEventListener('click', recarregarPagina);
 
-// Lista de textos vão que mudam
+// Lista de textos vão que mudar
 const textosDinamicos = [
     " Cada hora, o Sol fornece energia suficiente para atender às necessidades de energia da Terra por um ano inteiro.",
     " Uma única turbina eólica pode gerar energia suficiente para abastecer mais de 1.500 residências.",
